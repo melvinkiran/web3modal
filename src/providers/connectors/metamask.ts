@@ -1,12 +1,4 @@
-import { IAbstractConnectorOptions } from "../../helpers";
-
-interface MetamaskOptions extends IAbstractConnectorOptions {
-}
-
-const ConnectToMetmask = async (
-  MetamaskProvider: any,
-  opts: MetamaskOptions
-) => {
+const ConnectToMetmask = async () => {
   let provider = null;
   if (typeof window.ethereum !== 'undefined') {
     provider = window.ethereum;
