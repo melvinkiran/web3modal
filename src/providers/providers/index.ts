@@ -36,7 +36,8 @@ import SequenceLogo from "../logos/sequence.svg";
 import BitkeepLogo from "../logos/bitkeepwallet.png";
 // @ts-ignore
 import StarzWalletLogo from "../logos/starzwallet.svg";
-
+// @ts-ignore
+import MetamaskLogo from "../logos/metamask.svg";
 
 import { IProviderInfo } from "../../helpers";
 
@@ -224,3 +225,10 @@ export const STARZWALLET: IProviderInfo = {
   check: "isStarzWallet"
 };
 
+export const METAMASK: IProviderInfo = {
+  id: "metamask",
+  name: "metamask",
+  logo: MetamaskLogo,
+  type: "web",
+  check: "isMetamask"
+};
