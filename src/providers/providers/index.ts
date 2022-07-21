@@ -229,6 +229,6 @@ export const METAMASK: IProviderInfo = {
   id: "metamask",
   name: "metamask",
   logo: MetamaskLogo,
-  type: "web",
+  type: "injected",
   check: "isMetamask"
 };
